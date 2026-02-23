@@ -1,0 +1,2 @@
+#    hello there
+100    * sum(  rate(   http_requests_total{code=~"4..|5.."}[5m])) / sum(rate(http_requests_total[5m]))
